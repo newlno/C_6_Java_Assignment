@@ -19,11 +19,12 @@ public class Bus extends Transport {
         }
         }
     }
-    public void changeGas(int x){
+    public void changeGas(int x) throws InterruptedException {
         if (gas+x <= 10){
             this.gas += x;
             this.state = "차고지행";
             System.out.println("현재 기름 "+gas);
+            Thread.sleep(200);
             System.out.println("현재 상태 "+state);
             JOptionPane.showMessageDialog(null, "주유 필요", "C반 6조 Spring 과제", JOptionPane.ERROR_MESSAGE);
         } else {
