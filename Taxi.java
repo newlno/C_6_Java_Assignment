@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import javax.swing.*;
 import java.util.UUID;
 
@@ -93,3 +94,14 @@ public class Taxi extends Transport {
     }
 }
 
+=======
+public class Taxi extends pTP {
+
+
+    public Taxi( ) {
+
+
+    }
+
+}
+>>>>>>> 4de858b1da47f65f7d2a6f59f4e06ea6636a134a

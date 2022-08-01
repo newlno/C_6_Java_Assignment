@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import javax.swing.*;
 import java.util.UUID;
 
@@ -42,3 +43,18 @@ public class Bus extends Transport {
     }
 }
 
+=======
+public class Bus extends pTP {
+
+    public Bus(int number, int fuel, int velocity, int changeVelocity, int max, int pessengersNum) {
+        super(number, fuel, velocity, changeVelocity, max, pessengersNum);
+
+    }
+
+    public Bus(int pessengersNum) {
+        super(pessengersNum);
+
+    }
+
+}
+>>>>>>> 4de858b1da47f65f7d2a6f59f4e06ea6636a134a
